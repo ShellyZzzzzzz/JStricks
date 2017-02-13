@@ -1,0 +1,16 @@
+#list {
+  padding: 0;
+}
+
+#list li {
+  list-style: none;
+}
+
+#list input {
+  display: none;
+}
+
+#list input:checked+label {
+  background-color: #000;
+  color: #fff;
+}
